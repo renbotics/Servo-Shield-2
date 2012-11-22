@@ -1,0 +1,3 @@
+The Renbotics Servo Shield Rev 2 is an Arduino-compatible shield that uses only two pins to drive 16 servos per shield. The Renbotics Servo Shield Rev 2 uses a PCA9685 over I2C to provide 16 free-running servo outputs. The address of the board is selectable via a DIP switch making it easy to stack up to 62 shields to control up to 992 servos. Two jumpers make it easy to select the Arduino host model used.
+
+www.renbotics.com.au
