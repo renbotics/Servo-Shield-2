@@ -58,7 +58,7 @@ void ServoShield2::setposition(int servo, int position) {
     position = servosmin[servo];
     
   if (invertedservos[servo]) {
-      
+      position = servosmin[servo] + (servosmax[servo] - position);
   }
   
   position = floor(position / 4.88);
